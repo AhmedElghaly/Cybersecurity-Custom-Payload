@@ -59,12 +59,8 @@ Target Machine: The payload linux/x64/shell_reverse_tcp is specifically for 64-b
 	
 4- add the reverse_shell.elf to the custom_payload folder
 
-5- add the custom Config.in to the main Config.in :
-	#custom payload
-	source "package/custom_payload/Config.in"
+5- add the custom Config.in to the main Config.in : #custom payload source "package/custom_payload/Config.in"
 	
-6- check the custom payload in menuconfig:
-	make menuconfig
+6- check the custom payload in menuconfig: make menuconfig
 	
-7- build your image:
-	make
+7- build your image: make
