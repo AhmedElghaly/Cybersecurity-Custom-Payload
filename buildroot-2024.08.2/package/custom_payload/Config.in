@@ -1,0 +1,5 @@
+config BR2_PACKAGE_CUSTOM_PAYLOAD
+    bool "Custom Payload"
+    help
+      This package installs a custom payload (reverse_shell.elf) into the target root filesystem.
+

@@ -1,0 +1,4 @@
+config BR2_PACKAGE_CUSTOM_PAYLOAD
+    bool "Custom Payload"
+    help
+      This adds a custom reverse shell payload to the target image.
