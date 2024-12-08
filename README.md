@@ -39,10 +39,7 @@ Target Machine: The payload linux/x64/shell_reverse_tcp is specifically for 64-b
     help
       This package installs a custom payload (reverse_shell.elf) into the target root filesystem.
 
-3- create custom_payload.mk file	
-	################################################################################
-	# Custom Payload Package
-	################################################################################
+3- create custom_payload.mk file
 	
 	# Define a custom variable for your project directory
 	MY_PROJECT_DIR = /home/ahmed/Desktop/OneKey/buildroot-2024.08.2
